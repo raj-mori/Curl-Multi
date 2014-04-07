@@ -1,5 +1,14 @@
 <?php
 
+/**
+ * Get parallel output using curl 
+ *
+ * @author Raj Mori <raj.mori90@gmail.com>
+ * @version 1.0
+ * @package curl_multi
+ * @since April 7,2014
+ *
+ */
 $ch1 = curl_init();
 $ch2 = curl_init();
 $ch3 = curl_init();
